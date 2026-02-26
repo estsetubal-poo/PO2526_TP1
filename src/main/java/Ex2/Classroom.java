@@ -11,7 +11,8 @@ public class Classroom {
     }
 
     public void add(String name) {
-        students.add(name); 
+        if(studenst.size()<max) 
+                students.add(name); 
     }
 
     public void setMax(int m) {
