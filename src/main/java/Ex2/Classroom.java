@@ -7,14 +7,14 @@ public class Classroom {
     public int max = 30;
 
     public List<String> getStudents() {
-        return students; // exposes internal list
+        return students; 
     }
 
     public void add(String name) {
-        students.add(name); // no validation
+        students.add(name); 
     }
 
     public void setMax(int m) {
-        max = m; // can set to negative or lower than current size
+        max = m; 
     }
 }
