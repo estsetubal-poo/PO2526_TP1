@@ -2,6 +2,7 @@ package Ex3;
 
 class Customer {
     private Address address;
-    public Customer(Address address) { this.address = address; }
+    private String name;
+    public Customer(Address address,String name) { this.address = address; this.name=name;}
     public Address getAddress() { return address; }
 }
